@@ -1,0 +1,80 @@
+.productpage{
+    margin-top: 4rem;
+    width:100%;
+    min-height:100vh;
+}
+.productpagehead{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+  
+.flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+}
+    
+.flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 1s;
+      transform-style: preserve-3d;
+}
+    
+.flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+}
+    
+.flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+}
+    
+.flip-card-front {
+      /*background-color: #bbb;*/
+      color: black;
+}
+    
+.flip-card-back {
+      background-color: rgb(0,188,212);
+      color: white;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.price{
+        width:100%;
+}
+    
+.pricebtn{
+      border:2px solid white;
+      padding: 1rem;
+      font-size:2rem;
+}
+.pricebtn:hover{
+      background-color: white;
+      color: rgb(0,188,212);
+      transition: 1s;
+      cursor: pointer;
+}
+.product5{
+      background-color: rgb(0,188,212);
+      padding: 2rem;
+}
+.product5inside{
+      border:3px solid white;
+      height:100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center ;
+      align-items: center;
+      color: white;
+}
