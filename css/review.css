@@ -1,0 +1,31 @@
+.reviewspage{
+    width:100%;
+    min-height:100vh;
+    background-color: rgb(214,230,253);
+}
+.reviewspagehead{
+    font-size: 3rem;
+}
+.reviewbg{
+    background-image: url("/images/reviewbg.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    min-height:100vh;
+}
+.reviews{
+    text-align: center;
+    height: auto;
+    padding-top: 10rem;
+}
+.reviewtext{
+    height: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.reviewhead{
+    width:6rem !important;
+    height:6rem !important;
+    object-fit: cover;
+    border:2px solid transparent;
+    border-radius: 50%;
+}
