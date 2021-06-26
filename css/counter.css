@@ -1,0 +1,139 @@
+.counterpage{
+    width:100%;
+    height:50vh;
+    background-color: rgb(0,188,212);
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .counter1 {
+    animation: counter1 20s  alternate ease-in-out;
+    animation-fill-mode: forwards;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    color: white;
+  }
+  .counter1::after {
+    content: counter(num);    
+  }
+  
+  @keyframes counter1 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 100;
+    }
+  }
+
+  /*counter 2*/
+  @property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .counter2 {
+    animation: counter2 20s  alternate ease-in-out;
+    animation-fill-mode: forwards;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    color: white;
+  }
+  .counter2::after {
+    content: counter(num);    
+  }
+  
+  @keyframes counter2 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 45;
+    }
+  }
+
+  /*counter 3*/
+  @property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .counter3 {
+    animation: counter3 20s  alternate ease-in-out;
+    animation-fill-mode: forwards;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    color: white;
+  }
+  .counter3::after {
+    content: counter(num);    
+  }
+  
+  @keyframes counter3 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 98;
+    }
+  }
+
+  /*counter 4*/
+  @property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .counter4 {
+    animation: counter4 20s  alternate ease-in-out;
+    animation-fill-mode: forwards;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    color: white;
+    
+  }
+  .counter4::after {
+    content: counter(num);    
+  }
+  
+  @keyframes counter4 {
+    from {
+      --num: 0;
+    }
+    to {
+      --num: 147;
+    }
+  }
+  .counterbox{
+      height:100%;
+      font-family: 'Signika', sans-serif;
+  }
+  .counter{
+      padding-top:2rem;
+      margin:0 auto;
+      padding-left:4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .countnum{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding:2rem;
+      font-size: 2rem;
+  }
+  .countertext{
+      color:white;   
+      font-size: 1.5rem;
+  }

@@ -8,3 +8,7 @@
      object-fit: contain;
      object-position: center;
  }
+ .navbar-fixed-top.scrolled {
+    background: #fff !important;
+    transition: background-color 200ms linear;
+}
