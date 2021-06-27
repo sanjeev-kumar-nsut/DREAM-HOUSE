@@ -2,6 +2,7 @@
     width:100%;
     min-height:100vh;
     background-color: rgb(214,230,253);
+    font-family: 'Signika', sans-serif;
 }
 .reviewspagehead{
     font-size: 3rem;
@@ -20,7 +21,7 @@
 .reviewtext{
     height: 100%;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .reviewhead{
     width:6rem !important;

@@ -1,3 +1,6 @@
+.navbar{
+    font-family: 'Signika', sans-serif;
+}
 .logo{
     height:5rem;
     width:5rem;
@@ -11,4 +14,7 @@
  .navbar-fixed-top.scrolled {
     background: #fff !important;
     transition: background-color 200ms linear;
+}
+.nav-link{
+    font-size: 1.2rem;
 }
