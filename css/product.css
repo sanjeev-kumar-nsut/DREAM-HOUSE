@@ -79,3 +79,71 @@
       align-items: center;
       color: white;
 }
+@media (max-width:500px){
+      .productpagehead{
+            font-size: 1.5rem;
+      }
+      
+}
+.productcontainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      width:100%;
+}
+.row1{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: space-between;
+}
+
+.row2{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: space-between;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+}
+
+.row3{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: space-between;
+}
+.col2{
+      margin-left:4rem;
+      margin-right: 4rem;
+}
+@media (max-width:1000px){
+      .row1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+      .row2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0rem;
+      margin-bottom: 0rem;
+      }
+      .row3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+      .col2{
+            margin-left:0rem;
+            margin-right: 0rem;
+      }
+      .flip-card{
+            margin-bottom: 2rem;
+      }
+}

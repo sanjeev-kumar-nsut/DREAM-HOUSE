@@ -103,6 +103,9 @@
  .submitbtn{
   border: 2px solid rgb(24,142,244) !important;
 }
+.submittext{
+  font-size: 1rem;
+}
 .submitbtn:hover{
  border:2px solid white !important;
  background-color: rgb(24,142,244) !important;

@@ -1,8 +1,12 @@
 body{
     font-family: 'Signika', sans-serif;
+    padding:0;
+    margin:0;
   }
   .navbar{
       height:auto;
+      margin-top: 0;
+      padding-top: 0%;
       width:100%;
       font-family: 'Signika', sans-serif;
   }
@@ -71,3 +75,10 @@ body{
   .hover-1:hover:before {
     transform: scaleX(1);
   }
+
+.navbarcustom{
+    background: rgb(158,210,208) !important;
+}
+@media (max-width:980){
+    
+}
