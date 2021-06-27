@@ -12,3 +12,39 @@
 .textcenter{
     text-align: center;
 }
+
+.topbutton{
+    border:2px solid black;
+}
+.topbtn{
+    border: 2px solid black;
+    color:white;
+    background-color: black;
+    border-radius: 50%;
+    padding : 1rem;
+}
+
+.backtop{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.fixed{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 88%;
+  padding: 5px;
+  z-index: 2;
+}
+.arrow{
+    right:0 !important;
+    border-radius:50%;
+    width:4rem;
+    height:4rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
