@@ -108,3 +108,9 @@
  background-color: rgb(24,142,244) !important;
  color: white !important;
 }
+.contactwavedown{
+  position:relative;
+  text-align:center;
+  background: rgb(24,142,244);
+  color:white;    
+}

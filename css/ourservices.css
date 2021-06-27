@@ -1,8 +1,8 @@
 .service{
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
  .ourservices{
-    margin-top: 0;
+    margin-top: 2rem;
     width:100%;
     min-height:80vh;
     height: 100%;
@@ -43,4 +43,10 @@
 .servicerow2{
     padding-left: 8rem;
     padding-right: 6rem;
+}
+.ourservicesupwave{
+    position:relative;
+    text-align:center;
+    background: rgb(223,227,227);
+    color:white;    
 }

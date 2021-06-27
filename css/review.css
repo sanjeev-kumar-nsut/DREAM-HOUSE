@@ -30,3 +30,16 @@
     border:2px solid transparent;
     border-radius: 50%;
 }
+.reviewwaveup{
+    position:relative;
+    text-align:center;
+    background: white;
+    color:white;    
+  }
+.reviewwavedown{
+    margin-top: -4rem;
+    position:relative;
+    text-align:center;
+    background: rgb(214,230,253);
+    color:white;    
+  }
