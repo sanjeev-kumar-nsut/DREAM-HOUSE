@@ -1,6 +1,6 @@
 ![DREAM HOUSE](/images/logo.png) 
-#  **[DREAM HOUSE](https://dream-house-website.herokuapp.com/)**
-# **[WEBSITE LINK](https://dream-house-website.herokuapp.com/)**
+#  **[DREAM HOUSE](https://venerable-llama-1a9af1.netlify.app/)**
+# **[WEBSITE LINK](https://venerable-llama-1a9af1.netlify.app/)**
 ## **HOW TO GET STARTED**
 **1.Fork the repo**
    ![fork](https://user-images.githubusercontent.com/79185589/123548353-18febc80-d782-11eb-9f61-e4ae3dcfe5d4.png)
@@ -38,7 +38,7 @@
  * Even if you are aiming at the most complex interior ,**WE CAN HANDLE IT**.
  * We also sell the **best quality** , **modern** and **soft** furnitures
  * Our shops are almost in all cities.
- * [Website link](https://dream-house-website.herokuapp.com/)
+ * [Website link](https://venerable-llama-1a9af1.netlify.app/)
 
 # **Problems faced**
   * Making this website **responsive**  and picking a **colour theme** is a tough task.
